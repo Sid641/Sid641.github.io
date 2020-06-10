@@ -4,9 +4,205 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio </title>
+  
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</link>
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></link>
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+      body{
+        background-color: lemonchiffon;
+      }
+      
+     .block
+     { 
+       height:700px
+     }
+     #content{
+       padding-top: 0px;
+       padding :0px 70px 0px 70px;
+     }
+     #intro
+     {font-size:x-large;
+      background-image: url("./imgs/[cdn.hipwallpaper.com][558]UOr84P.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+       }
+       #color
+       {
+         color:red;
+       }
+     .box{
+       box-shadow: black 5px 5px 30px;
+       
+       margin:15px;
+     }
+     .white
+     {
+       background-color: white;
+     }
+     .col{
+       color:blue;
+     }
+     .flex-lay{
+         display:flex;
+         padding:  80px 150px;
+       }
+       .job-container{
+         display: flex;
+         justify-content: center;
+       }
+       .job-item{
+         box-shadow: 5px 5px 20px ;
+         margin: 50px;
+
+       }
+ #navigation
+     {
+       display:flex;
+       justify-content: space-between;
+       
+     }
+     #nav-list
+     {
+      list-style-type: none;
+      display:flex;
+     }
+     #nav-list li
+     { margin: 35px;}
+
+     .flex-layout{
+         display:flex;
+         padding:  80px 150px;
+       }
+       .flex-right{
+         padding:20px;
+       }
+       .flex-layout .icon
+       {
+        font-size: 30px;
+        margin-right: 15px;
+       }
+       .move
+       {
+        display:flex;
+         padding:  30px ;
+        
+       }
+       .flex-right{
+         margin-top: 50px;
+        padding:20px;
+       }
+       .center{
+         text-align: center;
+       }
+       .rig{
+       
+        padding:20px;
+       }
+     </style>
 </head>
 <body>
-  <h1>hi</h1>
-  <p>papr</p>
+      <div id="navigation" >
+      <img src="./imgs/[www.google.com][101]220px-Los_Pollos_Hermanos_logo.png" alt="logo" width="100" height="100" >     
+        <ul id="nav-list">
+      <a href="#history"><li>Our History</li></a>
+      <a href="#ourvalues"><li>Our Values</li></a>
+      <a href="#jobs"><li>Jobs</li></a>
+      <a href="#contactus"><li>Contact Us</li></a>
+    </ul>
+  </div>
+  <div id="content">
+    <div id="intro"  class="block flex-lay">
+    <div>
+      <img src="./imgs/[www.lphishiring.com][42]gus.png" alt="picture" width="500">
+    </div>
+    
+    <div><h1>Welcome!</h1>
+      <div class="box white col">
+    <p>"It's the best ingredients. The spiciest spices. All prepared with loving care! And always
+       delivered with a friendly smile. That's the Los Pollos Hermanos promise."</p>
+       <h4 id="color">Gus Fring — Owner and Proprietor</h4></div>
+    </div>
+  </div>
+   <div id="history"  class="block flex-layout">
+    <div>
+      <img src="./imgs/[www.google.com][150]Los-Pollos-Hermanos-Signage.jpg" alt="picture" width="300">
+    </div>
+    <div class="flex-right">
+      <h2>Our History</h2>
+     <p>Los Pollos Hermanos is a fast-growing casual family restaurant founded by Gus Fring 
+       and his business partner Max Arciniega. Together, the "chicken brothers" made a name 
+       for themselves and their small-town eatery by using authentic flavors and spices to 
+       make the tastiest chicken south of the border.
+       Since then, Los Pollos Hermanos has opened our doors in the United States, serving 
+       families just like yours. And we look forward to continued growth!</p>
+     <div> 
+          <span class="icon ion-social-github"></span>
+          <span class="icon ion-social-twitter"></span>
+          <span class="icon ion-social-linkedin"></span>
+     </div>
+   </div>
+   </div>
+
+
+    <div id="ourvalues"  class="block move">
+      <div class="flex-right">
+        <img src="./imgs/[www.lphishiring.com][806]tile-culture.jpg" alt="picture" width="400">
+      </div>
+    <div class="flex-right">
+      <h1>Our Values</h1>
+    <p>Los Pollos Hermanos knows what family tastes like and we bring that warmth and 
+      goodness into our food every single day. We always have something delicious cooking,
+       be it our crispy fried chicken, new spicy curly fries, or delicious dipping sauces.
+       We know how important it is to feed your family right, and we hold those values near 
+       and dear to our heart. Every meal we feed you will be FLAVORFUL, WARM, FRESH, and 
+       filled with LOVE and CARE. That is our promise to you.</p>
+
+      <h2 id="color">Our motto: "Los Pollos Hermanos! Taste the Family!"</h2>
+    </div>
+  </div>
+
+    
+    <div id="jobs"  class="block center">
+      <h1 class="flex-right">Jobs</h1>
+        
+      <h2 class="rig">"xxxxxxxxxxxxxxxxxxxxxxxxxxx"</h2>
+      <div class=job-container>
+        <div class=job-item>
+        <img src="./imgs/[scitechdaily.com][418]Underground-Drug-Lab-180x101.jpg" alt="picture" width="300">
+
+        <h3>Cook</h3>
+            <div>
+              <button class="btn btn pimary">click</button>
+              <button class="btn btn pimary">click-2</button>
+            </div>
+        </div>
+
+        <div class=job-item>
+        <img src="./imgs/[scitechdaily.com][417]Drug-Money-373x210.jpg" alt="picture" width="300">
+        <h3>Distributor</h3>
+        <div>
+          <button class="btn btn pimary">click</button>
+          <button class="btn btn pimary">click-2</button>
+        </div>
+        </div>
+      </div>
+    </div>
+      
+    </div>
+    <div id="contactus"  class="block">
+     <div>
+        <h1 class="center">Contact Us</h1>
+      <h3 class="center">mail us at xxxxxxxxxx</h3>
+    </div>
+    <div class="center">
+      <img src="./imgs/[www.google.com][211]247-2472569_los-pollos-hermanos-employee-training-with-gus-fring-breaking-bad-pollos-hermanos.png" alt="picture" width="1300">
+    </div>
+   
+</div>
+
 </body>
 </html>
